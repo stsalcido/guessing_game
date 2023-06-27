@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guessing Game by Steven Salcido</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="./js/index.js" async defer></script>
+</head>
+<body onload="newGame()">
+    <div class="cosmic-container">
+        <h1>Steven's Guessing Game</h1>
+        <form onsubmit="checkGuess();return false;">
+            Enter a number between 1 and 100:
+            <input type="text" id="guess" size="5">
+            <button type="button" onclick="checkGuess()">Guess!</button>
+        </form>
+        <h3 id="output">Guess a number and press the button.</h3>
+        <h4 id="scoreboard"></h4>
+    </div>
+</body>
+</html>

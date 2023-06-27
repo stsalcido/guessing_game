@@ -1,0 +1,57 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.cosmic-container {
+    border: 2px solid #fff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+    animation: wiggle 1s infinite;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(5deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+h1 {
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #111;
+    border: none;
+    cursor: pointer;
+}
+
+h3,
+h4 {
+    margin-top: 20px;
+}
+
+#scoreboard {
+    font-size: 14px;
+    margin-top: 10px;
+}
